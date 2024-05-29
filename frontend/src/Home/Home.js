@@ -218,7 +218,10 @@ const Home = ({setShowHome,setSignup,setLogged}) => {
                         left: '50%', // Center horizontally
                         transform: 'translateX(-50%)',
                         backgroundColor: 'black',
-                        color: "white" // Center horizontally
+                        color: "white", // Center horizontally
+                        fontSize:"30px",
+                        // width:"200px",
+                        // height:"200px"
                     }}
                 >
                     {shownotification.message}
