@@ -1,0 +1,380 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Major api",
+    "dateExported": "2024-04-06T08:58:32.833Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "9626bee1-f92b-4b69-8a3f-54e6c30c70a7",
+            "name": "upload",
+            "containerId": "",
+            "created": "2024-03-31T10:20:41.773Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "94329771-b894-4677-b96c-e59d424536c7",
+            "name": "get",
+            "containerId": "",
+            "created": "2024-04-06T08:57:28.392Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "28a35bf2-b629-4c71-a597-ce7197c5e15d",
+            "name": "delete",
+            "containerId": "",
+            "created": "2024-04-06T08:58:22.790Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "63a1b13a-f8d6-42f5-8a23-475642dbe2f8",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "28a35bf2-b629-4c71-a597-ce7197c5e15d",
+            "name": "deletelogs",
+            "url": "http://localhost:8000/deletelogs",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-04-05T11:10:51.260Z",
+            "modified": "2024-04-05T11:12:22.269Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "688f0f98-0183-4b09-85f7-cc7f760d3f38",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "94329771-b894-4677-b96c-e59d424536c7",
+            "name": "getAllImage",
+            "url": "http://localhost:8000/getAllImage",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-05T18:48:00.707Z",
+            "modified": "2024-04-05T18:48:40.841Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "213aad96-ad5b-4fbc-859d-ae545dad53cd",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "9626bee1-f92b-4b69-8a3f-54e6c30c70a7",
+            "name": "UpdateRelay",
+            "url": "http://localhost:8000/Updaterelay",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-31T10:21:21.585Z",
+            "modified": "2024-04-04T20:36:13.843Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"relay\":false\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "80db188d-acfc-4110-99e9-5c55772668c3",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "94329771-b894-4677-b96c-e59d424536c7",
+            "name": "getImageStr",
+            "url": "http://localhost:8000/getImagestr",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-05T18:25:10.476Z",
+            "modified": "2024-04-05T18:25:38.224Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8f6820b5-a6c6-4606-b17f-fa9664c6f3d5",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "9626bee1-f92b-4b69-8a3f-54e6c30c70a7",
+            "name": "updatetemp",
+            "url": "http://localhost:8000/Updatetemp",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-31T10:30:40.813Z",
+            "modified": "2024-03-31T13:45:05.193Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"temperature\":56\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d944660d-fa4e-4ca3-b74d-773678816350",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "94329771-b894-4677-b96c-e59d424536c7",
+            "name": "getlogs",
+            "url": "http://localhost:8000/getlogs",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-05T11:09:41.959Z",
+            "modified": "2024-04-05T11:09:58.830Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "857e9174-27a0-4d25-ae77-ed609961312b",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "9626bee1-f92b-4b69-8a3f-54e6c30c70a7",
+            "name": "Moisture",
+            "url": "http://localhost:8000/Updatemoisture",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-31T10:46:19.655Z",
+            "modified": "2024-03-31T13:45:15.137Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"moisture\":90\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f885a8e7-5f20-4d46-a4e4-0c8353fa754c",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "94329771-b894-4677-b96c-e59d424536c7",
+            "name": "getTemperature",
+            "url": "http://localhost:8000/gettemperature",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-04-04T19:28:59.206Z",
+            "modified": "2024-04-04T19:29:22.658Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e9a6e11e-1931-47dc-aca7-dd33f1140e4b",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "9626bee1-f92b-4b69-8a3f-54e6c30c70a7",
+            "name": "addData",
+            "url": "http://localhost:8000/addData",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-03-31T13:20:00.927Z",
+            "modified": "2024-04-05T18:19:06.238Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"relay\":false,\n  \"captureImage\":false,\n  \"morterStart\":false,\n  \"temperature\":60,\n  \"moisture\":50,\n  \"humidity\":70,\n  \"imageIdStr\":\"ster\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e274b4d4-73d6-4f8d-8094-c9c77996bf1a",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "94329771-b894-4677-b96c-e59d424536c7",
+            "name": "getHumidity",
+            "url": "http://localhost:8000/gethumidity",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-04-04T19:08:31.838Z",
+            "modified": "2024-04-04T19:09:02.778Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "25532089-ae7c-41e6-b858-7b1bb4fda5ef",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "9626bee1-f92b-4b69-8a3f-54e6c30c70a7",
+            "name": "updatecaptureimage",
+            "url": "http://localhost:8000/UpdateCaptureImage",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-04-01T20:30:40.507Z",
+            "modified": "2024-04-03T19:32:17.066Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"captureImage\":true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6f4b8025-919f-48b6-b660-01c13910d392",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "94329771-b894-4677-b96c-e59d424536c7",
+            "name": "getMoisture",
+            "url": "http://localhost:8000/getmoisture",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-04-04T12:48:03.398Z",
+            "modified": "2024-04-04T12:48:33.417Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c4136376-38ee-4172-b5c4-36797f0f383a",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "9626bee1-f92b-4b69-8a3f-54e6c30c70a7",
+            "name": "UpdateMorter",
+            "url": "http://localhost:8000/Updatestartmorter",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-04-01T20:33:26.512Z",
+            "modified": "2024-04-01T20:35:01.222Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"morterStart\":true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "65f92957-7898-4e75-afd2-ea5d131d97cd",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "94329771-b894-4677-b96c-e59d424536c7",
+            "name": "getMorter",
+            "url": "http://localhost:8000/getmorter",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-04-04T11:00:21.052Z",
+            "modified": "2024-04-04T11:43:46.682Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c83a1873-8e2a-4141-89a5-6398abeaec62",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "94329771-b894-4677-b96c-e59d424536c7",
+            "name": "getCaptureImage",
+            "url": "http://localhost:8000/getCaptureImage",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-04-04T10:33:48.112Z",
+            "modified": "2024-04-04T10:34:09.430Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cf080c8a-fc08-47e1-8720-d28d62018277",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "94329771-b894-4677-b96c-e59d424536c7",
+            "name": "getimageidstr",
+            "url": "http://localhost:8000/getImageid",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-04-01T21:03:05.264Z",
+            "modified": "2024-04-01T21:03:23.972Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e0cd2207-7c83-4a9b-bb77-970e2a25d360",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "94329771-b894-4677-b96c-e59d424536c7",
+            "name": "getRelay",
+            "url": "http://localhost:8000/getRelay",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-04-04T09:36:44.901Z",
+            "modified": "2024-04-04T09:37:18.180Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b4933681-2c6e-416d-acbc-0f41c2845184",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "94329771-b894-4677-b96c-e59d424536c7",
+            "name": "getImage",
+            "url": "http://localhost:8000/getImage",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-04-01T20:45:41.860Z",
+            "modified": "2024-04-01T20:46:04.817Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9ecc09fb-d425-430a-9ecd-44b39f6de839",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "94329771-b894-4677-b96c-e59d424536c7",
+            "name": "Getdata",
+            "url": "http://localhost:8000/sensordata",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2024-03-31T10:20:53.173Z",
+            "modified": "2024-03-31T10:21:02.808Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4735d18d-a967-48b8-b3e3-a1cd9fe916ef",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "9626bee1-f92b-4b69-8a3f-54e6c30c70a7",
+            "name": "updatehumidity",
+            "url": "http://localhost:8000/updatehumidity",
+            "method": "PUT",
+            "sortNum": 150000,
+            "created": "2024-04-04T19:11:59.854Z",
+            "modified": "2024-04-04T21:02:51.598Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"humidity\":200\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a8a41759-6eef-48ac-be27-04539d61a341",
+            "colId": "90032f82-4e7d-4fd2-a92a-43c12578894a",
+            "containerId": "9626bee1-f92b-4b69-8a3f-54e6c30c70a7",
+            "name": "Addlogs",
+            "url": "http://localhost:8000/addlogs",
+            "method": "POST",
+            "sortNum": 170000,
+            "created": "2024-04-04T22:02:00.683Z",
+            "modified": "2024-04-05T11:06:22.534Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"message\":\"this is my first log\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
